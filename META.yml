@@ -1,0 +1,123 @@
+---
+abstract: 'a library for language analysis.'
+author:
+  - 'Jorge Cunha Mendes <jorgecunhamendes@gmail.com>'
+  - 'Alberto Simões <ambs@cpan.org>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  Test::Warn: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3624'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Lingua-FreeLing
+provides:
+  Lingua::FreeLing:
+    file: lib/Lingua/FreeLing.pm
+    version: 0.01_01
+  Lingua::FreeLing::Bindings:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListAnalysis:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListInt:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListParagraph:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListSentence:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListString:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::ListWord:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::TreeDepnode:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::TreeNode:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::VectorListInt:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::VectorListString:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::VectorWord:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::analysis:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::chart_parser:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::dep_tree:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::dep_txala:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::dependency_parser:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::depnode:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::disambiguator:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::document:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::fex:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::hmm_tagger:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::maco:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::maco_options:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::nec:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::node:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::paragraph:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::parse_tree:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::relax_tagger:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::semanticDB:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::sense_info:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::senses:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::sentence:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::splitter:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::tokenizer:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::traces:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindings::word:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::Bindingsc:
+    file: lib/Lingua/FreeLing/Bindings.pm
+  Lingua::FreeLing::HMMTagger:
+    file: lib/Lingua/FreeLing/HMMTagger.pm
+    version: 0.01
+  Lingua::FreeLing::MorphAnalyzer:
+    file: lib/Lingua/FreeLing/MorphAnalyzer.pm
+    version: 0.01
+  Lingua::FreeLing::Sentence:
+    file: lib/Lingua/FreeLing/Sentence.pm
+    version: 0.01
+  Lingua::FreeLing::Splitter:
+    file: lib/Lingua/FreeLing/Splitter.pm
+    version: 0.01
+  Lingua::FreeLing::Tokenizer:
+    file: lib/Lingua/FreeLing/Tokenizer.pm
+    version: 0.01
+  Lingua::FreeLing::Word:
+    file: lib/Lingua/FreeLing/Word.pm
+    version: 0.01
+  Lingua::FreeLing::Word::Analysis:
+    file: lib/Lingua/FreeLing/Word/Analysis.pm
+    version: 0.01
+requires:
+  Carp: 0
+  Try::Tiny: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01_01

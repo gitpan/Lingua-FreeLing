@@ -1,0 +1,12 @@
+Revision history for Lingua-FreeLing
+
+0.01_01
+       Initial release, includes fully developed:
+       - Lingua::FreeLing::Tokenizer
+       - Lingua::FreeLing::Splitter
+       - Lingua::FreeLing::HMMTagger
+       And incomplete but functional modules:     
+       - Lingua::FreeLing::MorphAnalyzer
+       - Lingua::FreeLing::Word::Analysis
+       - Lingua::FreeLing::Word
+       - Lingua::FreeLing::Sentence
